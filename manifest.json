@@ -1,6 +1,6 @@
 {
-  "name": "Keywords to Speech",
-  "description": "Make keywords to speech!",
+  "name": "Chrome Privacy Preserving",
+  "description": "Make keywords hidden and speech!",
   "version": "1.0",
   "permissions": [
     "activeTab"
