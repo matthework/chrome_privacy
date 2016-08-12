@@ -19,13 +19,14 @@ rs.src = "http://code.responsivevoice.org/responsivevoice.js";
 document.getElementsByTagName('head')[0].appendChild(rs);
 
 // filter out keywords
-var kwords = ["Password", "Credit Card", "Sex", "Badge"]; 
+var kwords = ["Password", "Credit Card", "Sex", "Badge", "Stanford", "Parser"]; 
 var word = "";
 for (i in kwords) {
 	var kw = kwords[i];
 	var tts = "<button class=\"button-tts\" onclick='responsiveVoice.speak(\"" + kw + "\");'>******</button>";
 	console.log(kw);
 	document.body.innerHTML = document.body.innerHTML.replace(kw, tts);
+	// document.body = document.body.replace(kw, tts);
 }
 
 
